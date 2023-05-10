@@ -62,10 +62,10 @@ const Input: React.FC<InputProps> = ({
             placeholder:text-gray-400 
             focus:ring-2 
             focus:ring-inset 
-            focus:ring-sky-600 
+            focus:ring-blue-500 
             sm:text-sm 
             sm:leading-6`,
-            errors[id] && 'focus:ring-rose-500',
+            errors[id] && 'focus:ring-red-500',
             disabled && 'opacity-50 cursor-default'
           )}
         />
