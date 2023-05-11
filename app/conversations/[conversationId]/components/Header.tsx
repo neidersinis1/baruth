@@ -61,8 +61,8 @@ const Header: React.FC<HeaderProps> = ({ conversation }) => {
           className="
             lg:hidden 
             block 
-            text-sky-500 
-            hover:text-sky-600 
+            text-blue-500 
+            hover:text-blue-600 
             transition 
             cursor-pointer
           "
@@ -76,7 +76,7 @@ const Header: React.FC<HeaderProps> = ({ conversation }) => {
         )}
         <div className="flex flex-col">
           <div>{conversation.name || otherUser.name}</div>
-          <div className="text-sm font-light text-neutral-500">
+          <div className="text-sm font-light text-gray-500">
             {statusText}
           </div>
         </div>
@@ -85,9 +85,9 @@ const Header: React.FC<HeaderProps> = ({ conversation }) => {
         size={32}
         onClick={() => setDrawerOpen(true)}
         className="
-          text-sky-500
+          text-blue-500
           cursor-pointer
-          hover:text-sky-600
+          hover:text-blue-600
           transition
         "
       />
